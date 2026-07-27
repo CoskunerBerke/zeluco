@@ -69,7 +69,7 @@ export default function Home() {
               © {new Date().getFullYear()} Zelu Co. Tüm Hakları Saklıdır.
             </p>
             <p className="text-[10px] text-[#FAF8F5]/30 uppercase tracking-widest font-semibold">
-              Karaköy, Beyoğlu / İstanbul
+              Ankara / Türkiye
             </p>
           </div>
 
