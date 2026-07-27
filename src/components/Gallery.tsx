@@ -16,39 +16,51 @@ export default function Gallery() {
   const images: GalleryImage[] = [
     {
       id: 0,
-      url: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
-      alt: "Közlenmiş sebzeler eşliğinde yavaş pişmiş dana yanak ve sos tabaklaması",
-      category: "İmza Tabaklar",
+      url: "/images/post_dtbi7radpas_1.jpg",
+      alt: "Limon Soslu, Ferah Aromalı İmza Limonlu Tiramisu Sunumu",
+      category: "İmza Limonlu Tiramisu",
     },
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=800&auto=format&fit=crop",
-      alt: "Özel davet için hazırlanmış estetik kokteyl ikram masası ve aperatifler",
-      category: "Catering",
+      url: "/images/post_dtbi7radpas_5.jpg",
+      alt: "Limonlu Tiramisu Dilim Tadımı ve İç Katman Dokusu",
+      category: "İmza Limonlu Tiramisu",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
-      alt: "Şefin mutfağında hazırlanan el yapımı taze tagliatelle makarnası",
-      category: "Mutfak",
+      url: "/images/post_dswjwmcdic8_1.jpg",
+      alt: "Bireysel Servise Uygun Klasik Mini San Sebastian Cheesecake",
+      category: "Mini San Sebastian",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
-      alt: "Taş fırından yeni çıkmış, çıtır kabuklu ekşi mayalı köy ekmeği",
-      category: "Fırın",
+      url: "/images/post_dsuhd6bjpna_1.jpg",
+      alt: "Katkısız, Bol Belçika Çikolatalı Yoğun Islak Brownie",
+      category: "Çikolatalı Islak Brownie",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=800&auto=format&fit=crop",
-      alt: "Orman meyveleri ve çikolata ile süslenmiş butik şef tatlısı sunumu",
-      category: "Tatlılar",
+      url: "/images/post_dsll5bydeuf_1.jpg",
+      alt: "Bardakta Taşınabilir Çıtır Çikolata Parçacıklı Lokmalık Cookie",
+      category: "Bardakta Cookie",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop",
-      alt: "Yerel bahçelerden toplanmış taze yeşillikler ve organik salata malzemeleri",
-      category: "Malzemeler",
+      url: "/images/post_dr5ixrwjojt_1.jpg",
+      alt: "Doğal Limon Dolgulu Orman Meyveli Çikolata Parçacıklı Sağlıklı Cookie",
+      category: "Meyveli Kurabiye",
+    },
+    {
+      id: 6,
+      url: "/images/post_dr5ixrwjojt_3.jpg",
+      alt: "Limon Dolgulu Orman Meyveli Cookielerin İç Akışkan Dolgusu",
+      category: "Meyveli Kurabiye",
+    },
+    {
+      id: 7,
+      url: "/images/post_drzr4khda4c_1.jpg",
+      alt: "Orman Meyveli ve Çikolata Parçacıklı Katkısız Glutensiz Cookie",
+      category: "Sağlıklı Cookie",
     },
   ];
 
@@ -86,10 +98,10 @@ export default function Gallery() {
             GÖRSEL GALERİ
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-normal text-foreground">
-            Mutfağımızdan ve Davetlerden Kareler
+            Zelu Co. İmza Tabakları
           </h2>
           <p className="text-foreground/75 leading-relaxed font-light">
-            Zelu Co. mutfağındaki hazırlık süreçlerini, tabaklarımızın göz alıcı sunumlarını ve estetik catering köşelerimizi inceleyin.
+            Sadece kendi mutfağımızda, hiçbir katkı maddesi kullanmadan hazırladığımız taze ürünlerimizin gerçek fotoğrafları.
           </p>
         </div>
 
