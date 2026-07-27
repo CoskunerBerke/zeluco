@@ -16,39 +16,39 @@ export default function Gallery() {
   const images: GalleryImage[] = [
     {
       id: 0,
-      url: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=800&auto=format&fit=crop",
-      alt: "Torna tezgahında el yapımı seramik şekillendirme detayı",
-      category: "Seramik",
+      url: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+      alt: "Közlenmiş sebzeler eşliğinde yavaş pişmiş dana yanak ve sos tabaklaması",
+      category: "İmza Tabaklar",
     },
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1602872030219-cbf948a907db?q=80&w=800&auto=format&fit=crop",
-      alt: "Mat seramik kaplar içerisinde aromatik soya mumları",
-      category: "Soya Mumu",
+      url: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=800&auto=format&fit=crop",
+      alt: "Özel davet için hazırlanmış estetik kokteyl ikram masası ve aperatifler",
+      category: "Catering",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1525974160448-038dca7e4b93?q=80&w=800&auto=format&fit=crop",
-      alt: "Güneş ışığı alan Japandi tarzı seramik atölyesi",
-      category: "Stüdyo",
+      url: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      alt: "Şefin mutfağında hazırlanan el yapımı taze tagliatelle makarnası",
+      category: "Mutfak",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=800&auto=format&fit=crop",
-      alt: "Mat sırlı el yapımı seramik fincan ve tabaklar",
-      category: "Koleksiyon",
+      url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
+      alt: "Taş fırından yeni çıkmış, çıtır kabuklu ekşi mayalı köy ekmeği",
+      category: "Fırın",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1596436889106-be35e843f974?q=80&w=800&auto=format&fit=crop",
-      alt: "Doğal mum yapımında erimiş soya vaksının dökülme anı",
-      category: "Atölye",
+      url: "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=800&auto=format&fit=crop",
+      alt: "Orman meyveleri ve çikolata ile süslenmiş butik şef tatlısı sunumu",
+      category: "Tatlılar",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=800&auto=format&fit=crop",
-      alt: "Organik kil çanakların kurutma rafındaki düzeni",
-      category: "Seramik",
+      url: "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop",
+      alt: "Yerel bahçelerden toplanmış taze yeşillikler ve organik salata malzemeleri",
+      category: "Malzemeler",
     },
   ];
 
@@ -86,10 +86,10 @@ export default function Gallery() {
             GÖRSEL GALERİ
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-normal text-foreground">
-            Stüdyodan İlham Veren Kareler
+            Mutfağımızdan ve Davetlerden Kareler
           </h2>
           <p className="text-foreground/75 leading-relaxed font-light">
-            Zelu Co. stüdyosunun sıcak atmosferini, el işçiliğinin ince detaylarını ve ürünlerimizin ham dokularını fotoğraflarımızla keşfedin.
+            Zelu Co. mutfağındaki hazırlık süreçlerini, tabaklarımızın göz alıcı sunumlarını ve estetik catering köşelerimizi inceleyin.
           </p>
         </div>
 

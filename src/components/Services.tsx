@@ -1,39 +1,39 @@
 import React from "react";
-import { Palette, Flame, Layers, Sparkles } from "lucide-react";
+import { UtensilsCrossed, Flame, Briefcase, Award } from "lucide-react";
 
 export default function Services() {
   const items = [
     {
-      icon: <Palette className="w-6 h-6 text-primary-accent" />,
-      title: "Seramik Yapım Atölyeleri",
-      subtitle: "Tek Seferlik & Dönemlik Kurslar",
+      icon: <UtensilsCrossed className="w-6 h-6 text-primary-accent" />,
+      title: "Butik Catering & Davetler",
+      subtitle: "Özel Günleriniz İçin Gurme Çözümler",
       description:
-        "Profesyonel eğitmenlerimiz eşliğinde tornada kile şekil vermeyi, el şekillendirme ve sırlama tekniklerini öğrenin. Deneyime ihtiyacınız yok, çamurun dinginliğine odaklanın.",
-      features: ["Tüm malzemeler dahil", "Torna & el şekillendirme", "Fırınlama stüdyomuza ait"],
+        "Düğün, nişan, doğum günü veya özel lansmanlarınız için mekana ve konsepte uygun kreatif sunumlar, soğuk/sıcak ikramlar ve estetik büfe tasarımları hazırlıyoruz.",
+      features: ["Kişiselleştirilmiş menü seçimi", "Profesyonel garson & servis kadrosu", "Tabaklı veya kokteyl sunumlar"],
     },
     {
       icon: <Flame className="w-6 h-6 text-primary-accent" />,
-      title: "Doğal Soya Mum Koleksiyonu",
-      subtitle: "Tasarım Seramik Çanaklarda",
+      title: "Kişiye Özel Şef Deneyimi",
+      subtitle: "Evinizde Beş Yıldızlı Gastronomi",
       description:
-        "100% doğal soya vaksından, özel esanslar ve ahşap fitillerle hazırlanan mum koleksiyonu. Evinizde sürdürülebilir, sıcak ve büyüleyici bir atmosfer yaratın.",
-      features: ["Doğal soya vaksları", "Temiz yanan ahşap fitil", "Tekrar doldurulabilir seramik kaplar"],
+        "Mutfağınızı şeflerimize teslim edin. Malzeme tedarikinden tabaklamaya, hatta yemek sonrasındaki temizliğe kadar şeflerimizin ilgilendiği 5 veya 7 aşamalı gurme tadım menüleri.",
+      features: ["Dünya mutfağından seçmeler", "Şefe özel tadım menüsü", "Mutfak temizliği dahil"],
     },
     {
-      icon: <Layers className="w-6 h-6 text-primary-accent" />,
-      title: "Kurumsal & Özel Siparişler",
-      subtitle: "Bespoke Restoran & Ev Seramikleri",
+      icon: <Briefcase className="w-6 h-6 text-primary-accent" />,
+      title: "Kurumsal Yemek Çözümleri",
+      subtitle: "Şirket Lansmanları & Günlük Gurme Paketler",
       description:
-        "Kafe, restoran veya özel markanız için kurumsal kimliğinizi yansıtan tabaklar, kupalar, vazolar veya mumlar. Tasarımdan fırınlamaya sizinle ortak çalışıyoruz.",
-      features: ["Özel renk & sır çalışması", "Logo & marka damgalama", "Toptan alımlara özel fiyatlar"],
+        "İş toplantılarınız, kurumsal etkinlikleriniz ve yönetici ekipleriniz için lezzetli, taze ve sağlıklı günlük gurme menüler hazırlayarak ofisinize ulaştırıyoruz.",
+      features: ["Sıcak teslimat güvencesi", "Beslenme uzmanı onaylı içerik", "Farklı diyet türlerine uygun seçenekler"],
     },
     {
-      icon: <Sparkles className="w-6 h-6 text-primary-accent" />,
-      title: "Açık Stüdyo & Üyelik",
-      subtitle: "Serbest Çalışma Alanı",
+      icon: <Award className="w-6 h-6 text-primary-accent" />,
+      title: "Gurme Yemek Atölyeleri",
+      subtitle: "Şeflerimizle Birlikte Pişirin",
       description:
-        "Daha önce deneyimi olan seramik severler için stüdyomuzun torna, masa ve ekipmanlarını kiralıyoruz. Fırınlama hizmetlerimizden üyelere özel avantajlarla yararlanın.",
-      features: ["Haftalık & aylık üyelikler", "Fırınlama önceliği", "Gelişmiş alet ve ekipman kullanımı"],
+        "Kendi mutfağınızın şefi olun. El yapımı makarnalar, sos hazırlama teknikleri, suşi yapımı veya artisan ekmek pişirme gibi popüler konularda uygulamalı yemek eğitimleri.",
+      features: ["Uygulamalı & birebir eğitim", "Kendi tabağını tasarlama imkanı", "Atölye sonu tadım & sertifika"],
     },
   ];
 
@@ -44,13 +44,13 @@ export default function Services() {
         {/* Header content */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-primary-accent">
-            NELER SUNUYORUZ?
+            HİZMETLERİMİZ
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-normal text-foreground">
-            Hizmetlerimiz & Tasarım Çözümlerimiz
+            Gurme Gastronomi & Catering Çözümleri
           </h2>
           <p className="text-foreground/70 leading-relaxed font-light">
-            Zelu Co. stüdyosunda kili sanata dönüştürmek, ışığı kokularla taçlandırmak ve üreterek sakinleşmek için geliştirdiğimiz tüm seçenekleri keşfedin.
+            Zelu Co. mutfağında hazırlanan, her damak tadına hitap eden gurme lezzetlerimizi ve profesyonel hizmet seçeneklerimizi keşfedin.
           </p>
         </div>
 
@@ -102,19 +102,19 @@ export default function Services() {
         <div className="mt-16 glass-panel rounded-[2rem] p-8 sm:p-12 border border-border-color flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-2 text-center md:text-left">
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-foreground">
-              Size veya markanıza özel tasarımlar mı hayal ediyorsunuz?
+              Davetiniz için özel bir menü tasarlamak ister misiniz?
             </h3>
             <p className="text-sm text-foreground/70 font-light">
-              Fikirlerinizi çamura döküp sizin için fırınlayalım. Bizimle iletişime geçin.
+              Şeflerimizle birlikte davetinizin konseptine en uygun gurme tabakları planlayın.
             </p>
           </div>
           <a
-            href="https://wa.me/905000000000?text=Merhaba%2C%20%C3%B6zel%20sipari%C5%9F%20%2F%20tasar%C4%B1m%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum."
+            href="https://wa.me/905000000000?text=Merhaba%2C%20etkinli%C4%9Fimiz%20i%C3%A7in%20%C3%B6zel%20men%C3%BC%20ve%20catering%20teklifi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="whitespace-nowrap px-8 py-3.5 rounded-full bg-secondary-accent hover:bg-secondary-accent-hover text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-md hover:shadow-lg duration-300"
           >
-            Fikir Alın
+            Teklif İsteyin
           </a>
         </div>
 

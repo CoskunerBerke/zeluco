@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Menu, X, MessageSquareCode } from "lucide-react";
+import { Menu, X, UtensilsCrossed } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Header() {
   const navLinks = [
     { name: "Hakkımızda", href: "#hakkimizda" },
     { name: "Hizmetler", href: "#hizmetler" },
-    { name: "Atölye Takvimi", href: "#takvim" },
+    { name: "Menü Planlayıcı", href: "#menu" },
     { name: "Galeri", href: "#galeri" },
     { name: "Yorumlar", href: "#yorumlar" },
     { name: "İletişim", href: "#iletisim" },
@@ -60,13 +60,13 @@ export default function Header() {
         {/* WhatsApp CTA Button */}
         <div className="hidden md:block">
           <a
-            href="https://wa.me/905000000000?text=Merhaba%2C%20at%C3%B6lye%20rezervasyonu%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+            href="https://wa.me/905000000000?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-primary-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-primary-accent-hover transition-colors shadow-md hover:shadow-lg duration-300"
           >
-            <MessageSquareCode className="w-4 h-4" />
-            <span>WhatsApp Randevu</span>
+            <UtensilsCrossed className="w-4 h-4" />
+            <span>Teklif Alın</span>
           </a>
         </div>
 
@@ -118,13 +118,13 @@ export default function Header() {
 
           <div>
             <a
-              href="https://wa.me/905000000000?text=Merhaba%2C%20at%C3%B6lye%20rezervasyonu%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+              href="https://wa.me/905000000000?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 w-full py-3.5 rounded-full bg-primary-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-primary-accent-hover transition-colors shadow-md duration-300"
             >
-              <MessageSquareCode className="w-4 h-4" />
-              <span>WhatsApp Randevu</span>
+              <UtensilsCrossed className="w-4 h-4" />
+              <span>Teklif Alın</span>
             </a>
           </div>
         </div>

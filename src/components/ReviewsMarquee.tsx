@@ -15,42 +15,42 @@ export default function ReviewsMarquee() {
       id: 1,
       name: "Buse Kara",
       date: "2 hafta önce",
-      text: "Tornada ilk tanışma atölyesine katıldım. Kile dokunmak gerçekten müthiş bir terapiymiş. Stüdyonun sakinliği, eğitmenlerin sabrı ve ilgisi çok tatlıydı.",
+      text: "Şirketimizin lansman yemeği için Zelu Co. ile çalıştık. Mezeler ve özellikle dana yanak efsaneydi. Sunum kalitesi, masaların estetiği herkesi büyüledi.",
       rating: 5,
     },
     {
       id: 2,
       name: "Murat Yılmaz",
       date: "1 ay önce",
-      text: "Zelu Co.'nun soya mumlarına bayılıyorum. Beton kapları evimin minimal dekoruna çok yakıştı. Kokusu bittikten sonra da kasesini saksı olarak kullanıyorum.",
+      text: "Evlilik yıldönümümüz için evimizde özel şef deneyimi aldık. Şefimiz inanılmaz profesyoneldi, mutfağı tertemiz bıraktılar. Somon tabağının sunumu harikaydı!",
       rating: 5,
     },
     {
       id: 3,
       name: "Elif Şen",
       date: "3 hafta önce",
-      text: "Kurumsal etkinlik için şirketçe stüdyoyu kapattık. Harika bir ekip çalışması oldu. Herkes kendi bardağını tasarladı, sabırsızlıkla fırından çıkmasını bekliyoruz.",
+      text: "Doğum günü partim için kokteyl catering hizmeti aldık. Karides şişler ve aranciniler sıcak ve çıtır çıtır servis edildi. Misafirlerim hala yemekleri konuşuyor!",
       rating: 5,
     },
     {
       id: 4,
       name: "Deniz Aksoy",
       date: "2 ay önce",
-      text: "Japandi tarzını evime yansıtmak istiyordum, aradığım vazoyu burada buldum. Sır detayları, toprak rengi tonları ve mat dokusu kelimenin tam anlamıyla mükemmel.",
+      text: "Karaköy'deki atölyelerine el yapımı makarna eğitimi için katıldık. Hem eğlendik hem de şefin püf noktalarını öğrendik. Harika bir hafta sonu aktivitesi.",
       rating: 5,
     },
     {
       id: 5,
       name: "Aylin Kaya",
       date: "1 hafta önce",
-      text: "Soya mumu yapım atölyesine katıldım. Hangi yağları karıştıracağımızı ve esans notalarını detaylıca anlattılar. Kendi yaptığım meditasyon mumunu keyifle yakıyorum.",
+      text: "Özel tasarım mezeler ve catering sunumları kelimenin tam anlamıyla bir sanat eseri. Malzemelerin tazeliği ve kalitesi her lokmada hissediliyor.",
       rating: 5,
     },
     {
       id: 6,
       name: "Kaan Çelik",
       date: "3 ay önce",
-      text: "Son derece profesyonel ve sıcak bir ortam. Tornada çamur merkezleme işini nihayet kıvırabildim. Hafta sonunu değerlendirmek için harika bir atölye.",
+      text: "Butik catering dendiğinde İstanbul'da tek geçebilirim. İletişim süreçleri, menü planlaması ve tabak tasarımları son derece profesyonel.",
       rating: 5,
     },
   ];
@@ -66,7 +66,7 @@ export default function ReviewsMarquee() {
             MÜŞTERİ YORUMLARI
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-normal text-foreground">
-            Stüdyomuz Hakkında Ne Dediler?
+            Deneyimleyenler Ne Dedi?
           </h2>
         </div>
         <div className="flex items-center justify-center md:justify-end space-x-2 bg-sand-mid px-4 py-2.5 rounded-full border border-border-color">
@@ -76,7 +76,7 @@ export default function ReviewsMarquee() {
             ))}
           </div>
           <span className="text-xs font-semibold text-foreground">
-            Google Haritalar'da 4.9/5 Puan (120+ Yorum)
+            Google Haritalar'da 4.9/5 Puan (240+ Yorum)
           </span>
         </div>
       </div>

@@ -15,13 +15,13 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zelu Co. | Premium El Yapımı Seramik ve Soya Mumu Stüdyosu",
-  description: "Zelu Co., eviniz için modern Japandi tasarım anlayışıyla el yapımı seramikler, doğal soya mumları ve özel tasarım atölyeleri sunan premium bir tasarım stüdyosudur.",
-  keywords: ["seramik", "soya mumu", "tasarım stüdyosu", "el yapımı", "hediyelik", "atölye", "seramik atölyesi", "candle", "ceramics", "japandi", "dekorasyon"],
+  title: "Zelu Co. | Gurme Mutfak ve Kreatif Catering Stüdyosu",
+  description: "Zelu Co., özel davetleriniz için modern gastronomi anlayışıyla butik catering hizmetleri, kişiye özel şef deneyimleri ve yemek atölyeleri sunan premium bir gurme mutfaktır.",
+  keywords: ["catering", "yemek", "mutfak", "şef", "özel şef", "butik catering", "karaköy yemek", "lansman ikramları", "kokteyl", "lezzet", "zelu", "zelu co"],
   authors: [{ name: "Zelu Co." }],
   openGraph: {
-    title: "Zelu Co. | Premium El Yapımı Seramik ve Soya Mumu Stüdyosu",
-    description: "Zelu Co., eviniz için modern Japandi tasarım anlayışıyla el yapımı seramikler, doğal soya mumları ve özel tasarım atölyeleri sunan premium bir tasarım stüdyosudur.",
+    title: "Zelu Co. | Gurme Mutfak ve Kreatif Catering Stüdyosu",
+    description: "Zelu Co., özel davetleriniz için modern gastronomi anlayışıyla butik catering hizmetleri, kişiye özel şef deneyimleri ve yemek atölyeleri sunan premium bir gurme mutfaktır.",
     type: "website",
     locale: "tr_TR",
   },
