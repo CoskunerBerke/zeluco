@@ -52,7 +52,7 @@ export default function Home() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/905000000000?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
+                href="https://wa.me/905067740924?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-full bg-white/5 hover:bg-white/10 hover:text-primary-accent border border-white/10 transition-all duration-300"

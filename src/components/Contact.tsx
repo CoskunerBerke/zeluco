@@ -61,7 +61,7 @@ export default function Contact() {
         {/* Action buttons (Centered) */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/905000000000?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
+            href="https://wa.me/905067740924?text=Merhaba%2C%20zelu%20co%20catering%20ve%20men%C3%BC%20planlama%20hakk%C4%B1nda%20teklif%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-8 py-4 rounded-full bg-primary-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-primary-accent-hover transition-colors shadow-md hover:shadow-lg duration-300"

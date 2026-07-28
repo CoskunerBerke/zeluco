@@ -99,7 +99,7 @@ export default function InteractiveSection() {
     setTimeout(() => setInquiredStatus(null), 3000);
 
     const text = `Merhaba Zelu Co.! Davetimiz / işletmemiz için "${item.title}" siparişi vermek ve fiyat/toptan satış teklifi almak istiyoruz. Bilgi alabilir miyiz?`;
-    const url = `https://wa.me/905000000000?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/905067740924?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
   };
 
@@ -298,7 +298,7 @@ export default function InteractiveSection() {
             <div className="pt-4 border-t border-border-color text-center">
               <p className="text-[10px] text-foreground/40 uppercase tracking-widest font-semibold mb-2">TOPLU / TOPTAN SİPARİŞ</p>
               <a
-                href="https://wa.me/905000000000?text=Merhaba%2C%20cafemiz%20i%C3%A7in%20mini%20san%20sebastian%20ve%20tiramisu%20toptan%20sat%C4%B1%C5%9F%20ko%C5%9Fullar%C4%B1%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyoruz."
+                href="https://wa.me/905067740924?text=Merhaba%2C%20cafemiz%20i%C3%A7in%20mini%20san%20sebastian%20ve%20tiramisu%20toptan%20sat%C4%B1%C5%9F%20ko%C5%9Fullar%C4%B1%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyoruz."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-xs font-semibold text-primary-accent hover:underline"

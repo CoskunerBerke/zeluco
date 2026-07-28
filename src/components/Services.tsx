@@ -109,7 +109,7 @@ export default function Services() {
             </p>
           </div>
           <a
-            href="https://wa.me/905000000000?text=Merhaba%2C%20etkinli%C4%9Fimiz%20i%C3%A7in%20%C3%B6zel%20men%C3%BC%20ve%20catering%20teklifi%20almak%20istiyorum."
+            href="https://wa.me/905067740924?text=Merhaba%2C%20etkinli%C4%9Fimiz%20i%C3%A7in%20%C3%B6zel%20men%C3%BC%20ve%20catering%20teklifi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="whitespace-nowrap px-8 py-3.5 rounded-full bg-secondary-accent hover:bg-secondary-accent-hover text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-md hover:shadow-lg duration-300"
