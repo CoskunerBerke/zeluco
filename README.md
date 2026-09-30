@@ -30,7 +30,7 @@ A Turkish-language, light and minimal single-page website for Zelu Co., which pr
 - **Services** — boutique catering & events, private chef experience, corporate meal solutions and cooking workshops, plus a "request a quote" WhatsApp banner
 - **Interactive menu planner** (`InteractiveSection`) — two tabs (cakes & brownies / cookies); each item expands to show a description, ingredients, suggested drink pairing and preparation info, and an order button that opens WhatsApp with the product name filled in
 - **Gallery** of product photos with a lightbox (previous / next / close, background scroll lock)
-- **Reviews marquee** — infinitely scrolling customer comment cards
+- **Reviews marquee** — infinitely scrolling review cards (text is hard-coded in `ReviewsMarquee.tsx`)
 - **Contact** — service area, e-mail, working hours and direct WhatsApp / Instagram buttons
 - **SEO** — Turkish metadata and keywords, Open Graph tags, theme colour, `robots.txt` and `sitemap.xml` via App Router metadata routes
 
@@ -113,7 +113,7 @@ The `dev` and `build` scripts run with the `--webpack` flag instead of Turbopack
 - **Hizmetler** — butik catering ve davetler, kişiye özel şef deneyimi, kurumsal yemek çözümleri, yemek atölyeleri ve WhatsApp teklif çağrısı
 - **Etkileşimli menü planlayıcı** — iki sekme (pastalar & brownieler / cookieler); her ürün açıldığında açıklama, malzemeler, içecek eşleşmesi ve hazırlık bilgisi gösterilir, sipariş butonu ürün adıyla WhatsApp mesajı açar
 - Lightbox destekli **ürün galerisi**
-- Sonsuz kayan **müşteri yorumları** şeridi
+- Sonsuz kayan **yorum kartları** şeridi (metinler `ReviewsMarquee.tsx` içinde sabit yazılıdır)
 - **İletişim** — hizmet bölgesi, e-posta, çalışma saatleri, WhatsApp ve Instagram butonları
 - **SEO** — Türkçe meta etiketler, Open Graph, tema rengi, `robots.txt` ve `sitemap.xml`
 
